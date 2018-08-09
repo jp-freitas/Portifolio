@@ -1,0 +1,51 @@
+/* Global */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* End Global */
+
+/* Home */
+
+#home  {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    background: url(../img/Web\ 1920\ –\ 1.svg) no-repeat fixed center center / cover;
+}
+
+a {
+    color: white;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+}
+
+/* End Home */
+/* Presentation */
+
+#presentation-header {
+    text-align: center;
+    color: #6A82FB;
+}
+
+
+/* End Presentation */
+
+/* Personal */
+#personal {
+    background: #6A82FB;
+    color: #ffffff;
+}
+
+#personal-header {
+    text-align: center;
+    color: #000000;
+}
+
+
+/* End Personal */
