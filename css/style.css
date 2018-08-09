@@ -16,7 +16,7 @@ body {
     background: url(../img/Web\ 1920\ –\ 1.svg) no-repeat fixed center center / cover;
 }
 
-a {
+#home a {
     color: white;
 }
 
@@ -49,3 +49,28 @@ a {
 
 
 /* End Personal */
+
+/* Development */
+#development-header {
+    text-align: center;
+    color: #6A82FB;
+}
+/* End Development */
+
+/* Contact */
+#contact {
+    background: #6A82FB;
+}
+
+#contact-header {
+    text-align: center;
+}
+
+#contact-content {
+    color: #ffffff;
+}
+
+#contact-content .btn {
+    margin: 10pt;
+}
+/* End Contact */
