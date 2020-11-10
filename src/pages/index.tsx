@@ -1,9 +1,13 @@
-import { Title } from '../styles/pages/Home';
+import { Title, Header } from '../styles/pages/Home';
 
 export default function Dashboard() {
   return (
-    <div>
-      <Title>Hello World with Typescript!</Title>
-    </div>
+    <>
+      <nav>
+        <Header>
+          <Title>JFreitas</Title>
+        </Header>
+      </nav>
+    </>
   );
 }
