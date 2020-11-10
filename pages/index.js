@@ -1,5 +1,5 @@
 function Home() {
-    return <div>Hello World in Vercel!</div>
+    return <h1>Hello World in Vercel!</h1>
 }
 
 export default Home;
