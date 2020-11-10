@@ -5,7 +5,7 @@ export default function Dashboard() {
     <>
       <nav>
         <Header>
-          <Title>JFreitas</Title>
+          <Title>João Freitas</Title>
         </Header>
       </nav>
     </>
