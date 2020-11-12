@@ -1,38 +1,46 @@
 import styled from 'styled-components';
 
 export const Header = styled.div`
-  background: #333333;
   height: 58px;
-  width: 100%;
+  background: #00CEA5;
+`;
+
+export const ContainerHeader = styled.div`
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 27px;
+
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
+
 `;
 
-export const NavLogo = styled.div``;
+export const NavLogo = styled.div`
+
+`;
 
 export const LogoText = styled.p`
-  color: #F2F2F2;
-  font-size: 25px;
-  padding-left: 20px;
+  color: #003E32;
+  font-size: 23px;
+  font-weight: bold;
 `;
 
-export const NavActions = styled.div``;
-
-export const Main = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-contrent: center;
-`;
-
-export const Container = styled.div`
+export const NavActions = styled.div`
 
 `;
 
-export const MainText = styled.p`
-  color: #F2F2F2;
-  font-size: 35px;
-  margin: 5px;
+export const NavText = styled.a`
+  color: #003E32;
+  font-size: 17px;
+  margin: 20px;
+  text-decoration: none;
+  font-weight: bold;
+
+  :hover {
+    color: #E80072;
+  }
 `;
+

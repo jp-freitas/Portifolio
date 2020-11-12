@@ -1,23 +1,28 @@
-import {  Header, NavLogo, LogoText, NavActions, Main, Container, MainText } from '../styles/pages/Home';
+import {
+  Header,
+  ContainerHeader,
+  NavLogo,
+  LogoText,
+  NavActions,
+  NavText
+} from '../styles/pages/Home';
 
 export default function Home() {
   return (
     <>
       <Header>
-        <NavLogo>
-          <LogoText>João Freitas</LogoText>
-        </NavLogo>
-        <NavActions>
-
-        </NavActions>
+        <ContainerHeader>
+          <NavLogo>
+            <LogoText>João Freitas</LogoText>
+          </NavLogo>
+          <NavActions>
+            <NavText href="#">About</NavText>
+            <NavText href="#">Projects</NavText>
+            <NavText href="#">Contact</NavText>
+          </NavActions>
+        </ContainerHeader>
       </Header>
-      <Main>
-        <Container>
-          <MainText>NodeJS Developer</MainText>
-          <MainText>ReactJS Developer</MainText>
-          <MainText>React Native Developer</MainText>
-        </Container>
-      </Main>
+
     </>
   );
 }

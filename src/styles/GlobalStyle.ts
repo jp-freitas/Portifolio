@@ -8,8 +8,9 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #4F4F4F;
-    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background: #F2F2F2;
+    font-family: Montserrat, FiraCode, sans-serif;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
   }
