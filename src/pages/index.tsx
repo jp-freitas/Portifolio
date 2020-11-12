@@ -1,16 +1,23 @@
-import { HeaderText, Header, Home, HomeText } from '../styles/pages/Home';
+import {  Header, NavLogo, LogoText, NavActions, Main, Container, MainText } from '../styles/pages/Home';
 
-export default function Dashboard() {
+export default function Home() {
   return (
     <>
       <Header>
-        <HeaderText>João Freitas</HeaderText>
+        <NavLogo>
+          <LogoText>João Freitas</LogoText>
+        </NavLogo>
+        <NavActions>
+
+        </NavActions>
       </Header>
-      <Home>
-        <HomeText>ReactJS Developer</HomeText>
-        <HomeText>NodeJS Developer</HomeText>
-        <HomeText>React Native Developer</HomeText>
-      </Home>
+      <Main>
+        <Container>
+          <MainText>NodeJS Developer</MainText>
+          <MainText>ReactJS Developer</MainText>
+          <MainText>React Native Developer</MainText>
+        </Container>
+      </Main>
     </>
   );
 }

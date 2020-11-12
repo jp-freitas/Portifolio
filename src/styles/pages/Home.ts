@@ -2,30 +2,37 @@ import styled from 'styled-components';
 
 export const Header = styled.div`
   background: #333333;
-  height: 68px;
+  height: 58px;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
-
+  justify-content: flex-start;
 `;
 
-export const HeaderText = styled.p`
+export const NavLogo = styled.div``;
+
+export const LogoText = styled.p`
   color: #F2F2F2;
   font-size: 25px;
+  padding-left: 20px;
 `;
 
-export const Home = styled.div`
-  width: 100%;
-  height: 870px;
+export const NavActions = styled.div``;
+
+export const Main = styled.div`
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-contrent: center;
 `;
 
-export const HomeText = styled.p`
+export const Container = styled.div`
+
+`;
+
+export const MainText = styled.p`
   color: #F2F2F2;
-  line-height: 1.5;
-  font-size: 40px;
+  font-size: 35px;
+  margin: 5px;
 `;
