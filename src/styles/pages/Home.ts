@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
-export const Header = styled.nav`
+export const Header = styled.div`
   background: #333333;
   height: 68px;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+
 `;
 
 export const HeaderText = styled.p`
@@ -20,9 +22,6 @@ export const Home = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-`;
-
-export const Container = styled.div`
 `;
 
 export const HomeText = styled.p`
