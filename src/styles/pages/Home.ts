@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Header = styled.div`
   height: 58px;
-  background: #00CEA5;
 `;
 
 export const ContainerHeader = styled.div`
@@ -15,6 +14,10 @@ export const ContainerHeader = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
+  @media(max-width: 780px) {
+    flex-direction: column;
+  }
 
 `;
 
@@ -29,7 +32,12 @@ export const LogoText = styled.p`
 `;
 
 export const NavActions = styled.div`
-
+  @media(max-width: 780px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const NavText = styled.a`
@@ -41,6 +49,10 @@ export const NavText = styled.a`
 
   :hover {
     color: #E80072;
+  }
+
+  @media(max-width: 780px) {
+    margin: 6px;
   }
 `;
 
