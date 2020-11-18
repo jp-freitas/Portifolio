@@ -45,7 +45,6 @@ export const NavText = styled.a`
   font-size: 17px;
   margin: 20px;
   text-decoration: none;
-  font-weight: bold;
 
   :hover {
     color: #E80072;
