@@ -1,7 +1,6 @@
 import {
   Header,
   ContainerHeader,
-  NavLogo,
   LogoText,
   NavActions,
   NavText
@@ -12,17 +11,69 @@ export default function Home() {
     <>
       <Header>
         <ContainerHeader>
-          <NavLogo>
+          <div id="NavLogo">
             <LogoText>João Freitas</LogoText>
-          </NavLogo>
+          </div>
           <NavActions>
-            <NavText href="#">About</NavText>
-            <NavText href="#">Projects</NavText>
-            <NavText href="#">Contact</NavText>
+            <NavText href="#NavLogo">Home</NavText>
+            <NavText href="#About">About</NavText>
+            <NavText href="#Projects">Projects</NavText>
+            <NavText href="#Contact">Contact</NavText>
           </NavActions>
         </ContainerHeader>
       </Header>
+      <div className="About">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
+      </div>
+      <div className="Projects">
+      <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+      </div>
+      <div className="Contact">
+
+      </div>
     </>
   );
 }
