@@ -9,7 +9,7 @@ export default createGlobalStyle`
 
   body {
     height: 100%;
-    background: #F2F2F2;
+    background: #f2f2f2;
     font-family: Montserrat, FiraCode, sans-serif;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;

@@ -3,8 +3,13 @@ import styled from 'styled-components';
 export const Center = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   svg {
-    margin-top: 250px;
+    margin: 150px auto;
+  }
+
+  h1 {
+    color: #ffffff;
   }
 `;
